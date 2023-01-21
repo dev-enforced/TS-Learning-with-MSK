@@ -1,0 +1,13 @@
+{
+  "name": "msk-typescript-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc --noEmitOnError",
+    "run":"npm run build && node index.js"
+  },
+  "keywords": [],
+  "author": "Roshan J.",
+  "license": "ISC"
+}

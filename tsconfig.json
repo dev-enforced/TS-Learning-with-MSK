@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strict": true, //Toggles all the strict rules in TS
+    "noImplicitAny": false, //Avoids compiler to default a type to "any" is it cannot infer from context
+    "strictNullChecks": false, // Makes handling null and undefined more explicit, and spares us from worrying
+    "removeComments": true
+    // "lib": ["es6", "esnext.bigint"]
+  },
+  "files": ["./index.ts"]
+}
